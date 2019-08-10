@@ -6,7 +6,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel=StyleSheet href="styles.css" type="text/css" media=screen>
   <script src="./index.js">
-  </script>  
+  </script> 
+  <script src="./mixitup.min.js"></script>
 	</head >
 	<body onload="Animator.animate({
         selector: 'h1',
@@ -17,6 +18,33 @@
     <div class="profile_image"> </div>
     <h1 class="profile_name"> Carlos Alberto Mendoza Patalagua </h1>
   </div>
+  <br>
+  <div class="container">
+
+    <nav>
+      <button type="button" data-filter="all">All</button>
+      <button type="button" data-toggle=".high">High Experience</button>
+      <button type="button" data-toggle=".intermediate">Intermediate Experience</button>
+      <button type="button" data-toggle=".low">Low Experience</button>
+    </nav>
+
+    <div class="card mix high">
+      <h3>Java H</h3>
+      <img src="./images/java.png">
+    </div>
+
+    <div class="card mix intermediate">
+      <h3>Java I</h3>
+      <img src="./images/java.png">
+    </div>
+
+    <div class="card mix low">
+      <h3>Java L</h3>
+      <img src="./images/java.png">
+    </div>
+    
+  </div>
+  
 
 </body>
 </html>
