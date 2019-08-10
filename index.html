@@ -4,12 +4,19 @@
   <meta charset="UTF-8">
   <title>Mi perfil</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <LINK rel=StyleSheet href="styles.css" type="text/css" media=screen>
-</head>
-<body>
+  <link rel=StyleSheet href="styles.css" type="text/css" media=screen>
+  <script src="./index.js">
+  </script>  
+	</head >
+	<body onload="Animator.animate({
+        selector: 'h1',
+        stagger:30,
+        staggerPerLetter: 5
+      })">
   <div class="header">
     <div class="profile_image"> </div>
     <h1 class="profile_name"> Carlos Alberto Mendoza Patalagua </h1>
-  </div>  
+  </div>
+
 </body>
 </html>
