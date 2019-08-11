@@ -4,36 +4,45 @@
   <meta charset="UTF-8">
   <title>Mi perfil</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel=StyleSheet href="styles.css" type="text/css" media=screen>
-  <script src="./index.js">
-  </script> 
+
+  <script src="./index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
   <script src="./mixitup.min.js"></script>
+
+
 	</head >
 	<body onload="Animator.animate({
         selector: 'h1',
         stagger:30,
         staggerPerLetter: 5
-      }); filtro();">
+      }); filtro(); carga();">
+
   <div class="header">
+    <br>
     <div class="profile_image"> </div>
     <h1 class="profile_name"> Carlos Alberto Mendoza Patalagua </h1>
   </div>
-  <br>
+
+  <div class="skills">
+  <div class="tittle">Skills</div>
   <div class="container">
 
-    <nav>
+    <nav >
       <button type="button" data-filter="all">All</button>
       <button type="button" data-toggle=".high">High Experience</button>
       <button type="button" data-toggle=".intermediate">Intermediate Experience</button>
       <button type="button" data-toggle=".low">Low Experience</button>
     </nav>
+    <br>
 
     <div class="card mix high">
       <h3>Java</h3>
       <img src="./images/java.png">
     </div>
     <div class="card mix high">
-      <h3>HTML5 + CSS</h3>
+      <h3>HTML</h3>
       <img src="./images/html.png">
     </div>
 
@@ -64,6 +73,25 @@
       <img src="./images/javascript.png">
     </div>
   </div>
+  <br>
+</div>
+<div class="proyects">
+  <div class="tittle">Proyects
+  </div>
+  <div class="card-container">
+  <div class="card2">
+    <div class="front">
+      NanAsistant
+    </div>
+    <div class="back">
+      It is an academic proyect worked in the 2018 year, whose main propouse is offer a accompaniment service to older people.
+    </div>
+  </div>
+</div>
+<br>
+
+  
+</div>
   
 
 </body>
