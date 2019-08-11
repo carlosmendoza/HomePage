@@ -44,5 +44,16 @@ var Animator = {
   }
 }
 //
+//Funcion para el manejo del filtrado de lenguajes
 //
+function filtro(){
+  mixitup(".container",{
+    "animation": {
+        "duration": 250,
+        "nudge": true,
+        "reverseOut": true,
+        "effects": "fade rotateY(90deg) stagger(30ms)"
+    }
+  });
+}
 

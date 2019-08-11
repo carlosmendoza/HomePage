@@ -54,6 +54,10 @@ button{
   cursor: pointer;
   margin: 2px;
 }
+button.mixitup-control-active{
+  background-color: rgb(50,200,50);
+  box-shadow: 0px 7px 12px rgba(0,0,0,0.45);
+}
 nav{
   text-align: center;
 }
