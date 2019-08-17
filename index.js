@@ -57,9 +57,10 @@ function filtro(){
   });
 }
 //Segundas tarjetas
-function carga()
+function carga(name)
 {
-var card = document.querySelector(".card2");
+console.log(name);
+var card = document.getElementById(name);
 var playing = false;
 
 card.addEventListener('click',function() {
@@ -79,5 +80,11 @@ card.addEventListener('click',function() {
   });
 });
 };
+
+function cargaTodos()
+{
+  carga("card2");
+  carga("card3");
+}
 
 
