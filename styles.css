@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+  font-family: Roboto, Arial, Helvetica;
+}
 .header{
   text-align: center;
   height: 550px;
@@ -37,16 +41,18 @@
   text-shadow: 0px 0px 4px #000;
 }
 .major_name{
-
   font-size: 30px;
   color: green;
   text-shadow: 0px 0px 2px #006400;
   scroll-behavior: smooth;
 }
-body{
-  margin: 0px;
-  font-family: Roboto, Arial, Helvetica;
+.about-me{
+  background-color: #1E8449;
 }
+.about-me .tittle{
+  margin-top: 0px;
+}
+
 .button-filter{
   background-color: #eee;
   color:#222;
@@ -55,8 +61,7 @@ body{
   font-size: 1.5em;
   transition: all 0.4s;
   cursor: pointer;
-  border: 1px;
-  
+  border: 1px;  
 }
 .button-filter.mixitup-control-active{
   /*background-color: #3b83db;*/
@@ -103,6 +108,7 @@ nav{
 }
 .skills .tittle{
   color: black;
+  font-weight: bold;
 }
 .proyects
 {
@@ -217,7 +223,7 @@ p{
 .volunteering .tittle{
   color: black;
 }
-.navbar{
+.bg-dark{
   background-color:#1E8449;
   color: white; 
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.12);
@@ -228,15 +234,14 @@ p{
   text-align: center;
   font-size: 25px;
 }
-.nav-link{
+.about-me p{
+  padding: 52px;
   color: white;
-  font-family: Roboto, Arial, Helvetica;
-  font-weight: black;
+  font-size: 25px;
+  justify-content: center;
+  width: 20%;
+}
 
-}
-.active>.nav-link  {
- color: red;
-}
 
 
   
