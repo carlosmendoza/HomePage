@@ -122,8 +122,8 @@ nav{
 {
     font-family: Roboto, Arial, Helvetica;
     font-size: 60px;
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 250px;
     margin-left : 40px ;
     border-radius: 10px;
     perspective: 1400px;
@@ -178,15 +178,15 @@ nav{
     background: #424242;
     padding: 25px;
 }
-.icono
+.icon
 {
   width: 200px;
   height: 200px;
 
 }
-.icono2
+.icon2
 {
-  width: 500px;
+  width: 400px;
   height: 320px;
 
 }
@@ -214,7 +214,17 @@ p{
   color: black;
 }
 .nav{
-  z-index: 2;
+  z-index: 1;
+}
+.proyects p{
+  margin-left: 15px;
+  color: white;
+}
+.nav-link{
+  color: black;
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: bold;
+
 }
 
 
