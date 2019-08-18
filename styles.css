@@ -90,12 +90,10 @@ nav{
   height: 160px;
 
 }
-.container
-{
+.container{
   text-align: center;
 }
-.tittle
-{
+.tittle{
   font-family: Roboto, Arial, Helvetica;
   font-size: 50px;
   font-weight: bold;
@@ -110,8 +108,7 @@ nav{
   color: black;
   font-weight: bold;
 }
-.proyects
-{
+.proyects{
   background-color: #1E8449;
 }
 .proyects .tittle{
@@ -119,12 +116,9 @@ nav{
   margin-left: 25px;
   margin-top: 30px;
 }
-.cardlist
-{
+.cardlist{
   display: flex;
   justify-content: center;
-  
-
 }
 
 .card-container
@@ -233,13 +227,32 @@ p{
   color: white;
   text-align: center;
   font-size: 25px;
+  justify-content: center;
+}
+.profile_explain    {
+  text-align: center;
+  justify-content: center;
+}
+.carousel-inner{
+box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.12);
 }
 .about-me p{
-  padding: 52px;
+  padding: 10px;
   color: white;
   font-size: 25px;
   justify-content: center;
-  width: 20%;
+}
+.contact{
+text-align: center;
+background-color: #1E8449;
+}
+.contact img{
+  width: 125px;
+  height: 125px;
+  margin: 15px;
+}
+.contact .tittle{
+  text-align: left;
 }
 
 
