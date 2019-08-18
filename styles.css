@@ -41,12 +41,13 @@
   font-size: 30px;
   color: green;
   text-shadow: 0px 0px 2px #006400;
+  scroll-behavior: smooth;
 }
 body{
   margin: 0px;
   font-family: Roboto, Arial, Helvetica;
 }
-button{
+.button-filter{
   background-color: #eee;
   color:#222;
   padding: 10px;
@@ -57,7 +58,7 @@ button{
   border: 1px;
   
 }
-button.mixitup-control-active{
+.button-filter.mixitup-control-active{
   /*background-color: #3b83db;*/
   background-color: #1E8449;
   box-shadow: 0px 7px 12px rgba(30, 132, 73, 0.5);
@@ -116,6 +117,8 @@ nav{
 {
   display: flex;
   justify-content: center;
+  
+
 }
 
 .card-container
@@ -186,7 +189,7 @@ nav{
 }
 .icon2
 {
-  width: 400px;
+  width: 430px;
   height: 320px;
 
 }
@@ -208,23 +211,31 @@ nav{
   max-height: 650px !important;
 }
 p{
-  font-size: 20px;
+  font-size: 25px;
+  text-align: justify;
 }
 .volunteering .tittle{
   color: black;
 }
-.nav{
-  z-index: 1;
+.navbar{
+  background-color:#1E8449;
+  color: white; 
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.12);
 }
 .proyects p{
   margin-left: 15px;
   color: white;
+  text-align: center;
+  font-size: 25px;
 }
 .nav-link{
-  color: black;
+  color: white;
   font-family: Roboto, Arial, Helvetica;
-  font-weight: bold;
+  font-weight: black;
 
+}
+.active>.nav-link  {
+ color: red;
 }
 
 

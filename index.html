@@ -6,13 +6,16 @@
   <title>Mi perfil</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel=StyleSheet href="styles.css" type="text/css" media=screen>
-  <script src="./index.js"></script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
   <script src="./mixitup.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel=StyleSheet href="styles.css" type="text/css" media=screen>
+  <script src="./index.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 
 <body onload="Animator.animate({
@@ -20,37 +23,46 @@
   stagger:100,
   staggerPerLetter: 2
 }); filtro(); cargaTodos();">
+
 <div class="header">
-  <!-- <ul class="nav justify-content-end fixed-top"><-->
-  <ul class="nav justify-content-end fixed-top">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">About Me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#skills">Skills</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#proyects">Proyects</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#volunteering">Volunteering</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#volunteering">Another Option</a>
-    </li>
-  </ul>
   <div class="profile_image"> </div>
   <h1 class="profile_name"> Carlos Alberto Mendoza Patalagua</h1>
   <h2 class="major_name"> System and Computing Engineering</h2>
 </div>
+<nav class="navbar navbar-expand-md bg-dark sticky-top">
+ <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a class="nav-link" href="#AboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#proyects">Proyects</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#volunteering">Volunteering</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#Projects">Contact Me</a>
+      </ul>
+    </div>
+  </div>
+  </nav>
 <div class="skills" id="skills">
   <div class="tittle">Skills</div>
   <div class="container">
     <nav>
-      <button type="button" data-filter="all">All</button>
-      <button type="button" data-toggle=".high">High Experience</button>
-      <button type="button" data-toggle=".intermediate">Intermediate Experience</button>
-      <button type="button" data-toggle=".low">Low Experience</button>
+      <button class="button-filter" data-filter="all">All</button>
+      <button class="button-filter" data-toggle=".high">High Experience</button>
+      <button class="button-filter" data-toggle=".intermediate">Intermediate Experience</button>
+      <button class="button-filter" data-toggle=".low">Low Experience</button>
     </nav>
     <br>
     <div class="card mix high">
@@ -124,6 +136,8 @@
   <br>
   <div class="row justify-content-center">
     <div class="col-sm-8">
+      <p>The course "Practica social" is developed at the University of Andes and them provide a Tenth and eleventh grade students, from colleges that are part of the Asociación Alianza Educativa, and students of this university the opportunity of sharing knowledge and experiences together. I was part of the team of monitors in the semester 2019-10
+      </p>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -155,8 +169,7 @@
         </div>
       </div>
       <br>
-      <p>The course "Practica social" is developed at the University of Andes and them provide a Tenth and eleventh grade students, from colleges that are part of the Asociación Alianza Educativa, and students of this university the opportunity of sharing knowledge and experiences together. I was part of the team of monitors in the semester 2019-10
-      </p>
+      
     </div>
   </div>
 </div>
