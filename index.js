@@ -1,6 +1,6 @@
 'use strict'
 //
-// Animación para la entrada del nombre
+// Animación para la entrada del nombre de la carrera
 //
 var Animator = {
   animate: function(options){
@@ -37,11 +37,10 @@ var Animator = {
   }
 }
 //
-//Funcion para el manejo del filtrado de herramientas
+//Funcion para el manejo del filtrado de habilidades
 //
 function filtro(){
-  mixitup(".container",{
-    
+  mixitup(".container",{    
     "animation": {
         "duration": 250,
         "nudge": true,
@@ -50,7 +49,9 @@ function filtro(){
       },   
   });
 }
-//Proyect cards
+//
+//Manejo de acciones para las cartas de presentación de los proyectos
+//
 function carga(name)
 {
 console.log(name);
@@ -72,14 +73,16 @@ card.addEventListener('click',function() {
   });
 });
 };
-
-function cargaTodos()
-{
+//
+//Se encarga de cargas las acciones para las cartas (Skills y Proyects)
+// es llamada en la función onLoad del head
+//
+function cargaTodos(){
   carga("card2");
   carga("card3");
 }
 //
-// Scroll
+//Manejo del scroll suave
 //
 $(document).ready(function() {
   $('a[href^="#"]').click(function() {
