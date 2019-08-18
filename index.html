@@ -16,16 +16,30 @@
 </head>
 
 <body onload="Animator.animate({
-  selector: 'h1',
-  stagger:30,
-  staggerPerLetter: 5
+  selector: 'h2',
+  stagger:100,
+  staggerPerLetter: 2
 }); filtro(); cargaTodos();">
 <div class="header">
-  <br>
+  <ul class="nav justify-content-end fixed-top">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">About me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skills">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#proyects">Proyects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#volunteering">Volunteering</a>
+    </li>
+  </ul>
   <div class="profile_image"> </div>
-  <h1 class="profile_name"> Carlos Alberto Mendoza Patalagua </h1>
+  <h1 class="profile_name"> Carlos Alberto Mendoza Patalagua</h1>
+  <h2 class="major_name"> System and Computing Engineering</h2>
 </div>
-<div class="skills">
+<div class="skills" id="skills">
   <div class="tittle">Skills</div>
   <div class="container">
     <nav>
@@ -70,38 +84,40 @@
   </div>
   <br>
 </div>
-<div class="proyects">
+<div class="proyects" id="proyects">
   <div class="tittle">Proyects
   </div>
+  <p>  Some projects that I worked on during my career.</p>
   <div class="cardlist">
     <div class="card-container">
       <div class="card2" id="card2">
         <div class="front">
-          NanAsistant
+          <img src="./images/nanassist.png" class="icono2">
         </div>
         <div class="back">
-          It is an academic proyect worked in the 2018 year, whose main propouse is offer a accompaniment service to older people.
+          This is a start-up project I began with friends of mine last semester while seeing Half Major Proyect. It is a phone app designed to help Senior Citizens. <br>The main propouse is offer a accompaniment service to older people.
         </div>
       </div>
     </div>
+    <br><br>
     <div class="card-container">
       <div class="card2" id="card3">
         <div class="front">
           <img src="./images/yale.png" class="icono">
         </div>
-        <div class="back">
-          It is an academic proyect worked in the 2018 year, whose main propouse is offer a accompaniment service to older people.
+        <div class="back">          
+          It consisted in creating a system for the administration of electronic locks. For this, functional technologies with IoT were used. 
         </div>
       </div>
     </div>
   </div>
   <br>
-  <hr>
   <!-- Imagenes-->
 </div>
-<div class="volunteering">
+<div class="volunteering" id="volunteering">
   <div class="tittle">Volunteering
   </div>
+  <br>
   <div class="row justify-content-center">
     <div class="col-sm-8">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -111,18 +127,26 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/ps1.jpg" class="d-block w-100" alt="..." data-interval="5000">
+            <img src="./images/ps1.jpg" class="d-block w-100" alt="..." data-interval="1000">
           </div>
           <div class="carousel-item">
-            <img src="./images/ps2.jpg" class="d-block w-100" alt="..." data-interval="5000">
+            <img src="./images/ps2.jpg" class="d-block w-100" alt="..." data-interval="1000">
           </div>
           <div class="carousel-item">
-            <img src="./images/ps3(1).jpg" class="d-block w-100" alt="..." data-interval="5000">
+            <img src="./images/ps3(1).jpg" class="d-block w-100" alt="..." data-interval="3000">
           </div>
           <div class="carousel-item">
-            <img src="./images/ps4.jpg" class="d-block w-100" alt="..." data-interval="5000">
+            <img src="./images/ps4.jpg" class="d-block w-100" alt="..." data-interval="3000">
           </div>
         </div>
       </div>

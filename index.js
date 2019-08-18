@@ -40,11 +40,12 @@ var Animator = {
     },options.stagger)
   },
   generateRandomChar: function(){
-    return Math.random().toString(36).substr(2,1);
+    //return Math.random().toString(36).substr(2,1);
+    return Math.floor(Math.random() * 2);
   }
 }
 //
-//Funcion para el manejo del filtrado de lenguajes
+//Funcion para el manejo del filtrado de herramientas
 //
 function filtro(){
   mixitup(".container",{
