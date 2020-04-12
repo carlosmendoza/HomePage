@@ -1,6 +1,6 @@
-# Carlos Mendoza Personal Web Page
+# Carlos Mendoza Personal Web Site
 **Objective**  
-Create my personal web page to show relevant information about myself and my projects using HTML, CSS and JavaScript.
+Create my personal web site to show relevant information about myself and my projects using HTML, CSS and JavaScript.
 
 **How do you run?**  
 
