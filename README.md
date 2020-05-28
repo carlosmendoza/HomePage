@@ -5,7 +5,7 @@ Create my personal web site to show relevant information about myself and my pro
 **How do you run?**  
 
 + Locally: you can deploy it with a http server
-+ Internet connection: you can use the github url: https://carlosmendoza.github.io/PersonalPage/  
++ Internet connection: you can use the github url: https://carlosmendoza.github.io/HomePage/  
 
 **Author**  
 
